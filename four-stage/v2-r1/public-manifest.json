@@ -1,0 +1,32 @@
+{
+  "policy": "monitoring-public-bundle/v1",
+  "task_id": "four-stage",
+  "version": "v2-r1",
+  "source_report_sha256": "d6066676acb0089c0996bf4d93a6701f4181a173855bc112c837f85be0a55809",
+  "source_manifest_sha256": "ce6e5481f14886cd3ff44dca717b7d073e282027e9f5344ee849cf9329c16dc1",
+  "producer_sha256": "8c50c7bd950809c07ec73d49db8999a42cd602057397e5c070ed98fd49c1b68b",
+  "redaction_review_sha256": "e3de680ac7eed4cabf8c3608ae93e4381aaa9fc84f5fc29dac9122d9329bc2a7",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "bda5c670359c1324a86262cf68c8c1f1e06a828b97e32422577395d0818b8d4b",
+      "bytes": 640380
+    },
+    {
+      "path": "audit.json",
+      "sha256": "b6ecae6e0fdad6d08041748a8e6027a40d71658e6031e7b29c8be7070ad5c3ac",
+      "bytes": 10063
+    },
+    {
+      "path": "videos/l4-s008-69e0b11a29.mp4",
+      "sha256": "1a4acac01e95f1a3c0ef155cd770fc35a144046c7aee75eb82a26af4d291d803",
+      "bytes": 437675
+    },
+    {
+      "path": "videos/l4-s008-cc39202c04.mp4",
+      "sha256": "9804c8fb19083a0357243fd367e44b094da5947526c5c798f08509cbf6cfc139",
+      "bytes": 355680
+    }
+  ],
+  "teddy_accepted": false
+}

@@ -1,0 +1,50 @@
+{
+  "format_version": "classroom-monitoring/v2",
+  "task_id": "japan",
+  "version": "v2-r1",
+  "monitoring_registry_version": "2.0",
+  "monitoring_gaps": {
+    "missing_required_modules": [],
+    "unregistered_modules": []
+  },
+  "scope": {
+    "window": "2026-10-10T00:00:00+08:00 / 2026-10-11T00:00:00+08:00；非固定成熟期/历史首体验",
+    "population_users": 15,
+    "review_users": 15,
+    "exit_scope": "all_new_class_users_in_day",
+    "note": "来源声明的历史续作另列；同人映射仅在来源关系明确时合并，未证明的不合并。"
+  },
+  "coverage": {
+    "review_users": 15,
+    "explicit_exit_users": 3,
+    "explicit_exit_attempts": 4,
+    "missing_terminal_users": 5,
+    "missing_terminal_aliases": [
+      "JP-002",
+      "JP-003",
+      "JP-005",
+      "JP-009",
+      "JP-010"
+    ],
+    "unobserved_users": 4,
+    "unobserved_aliases": [
+      "JP-011",
+      "JP-012",
+      "JP-013",
+      "JP-014"
+    ],
+    "activity_without_boundaries_users": 1,
+    "unresolved_terminal_users": 10,
+    "confirmed_issues": 0,
+    "confirmed_issue_users": 0,
+    "playback_videos": 0,
+    "exit_set_matches": true,
+    "missing_monitoring_modules": 0
+  },
+  "videos": [],
+  "teddy_accepted": false,
+  "browser_playback_verified": false,
+  "public_share_verified": false,
+  "public": true,
+  "public_approval": "scoped_direct_user_authorization"
+}

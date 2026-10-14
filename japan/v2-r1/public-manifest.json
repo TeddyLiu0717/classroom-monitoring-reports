@@ -1,0 +1,22 @@
+{
+  "policy": "monitoring-public-bundle/v1",
+  "task_id": "japan",
+  "version": "v2-r1",
+  "source_report_sha256": "680707cb7dc8543fb4d51c79937ad6afedeb3161615004b5fe27544ae5e37f0e",
+  "source_manifest_sha256": "6700a214d7452475e0c0e1b2a945cea5979671a0be7bc9930005b5564452768d",
+  "producer_sha256": "8c50c7bd950809c07ec73d49db8999a42cd602057397e5c070ed98fd49c1b68b",
+  "redaction_review_sha256": "15f8d5a11b5804a599dc25de7c2ea31eb2ff397591b2415e4c3b54993a099159",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "9e764f302ec2e08f40e1fa22317e6bd1cc35469e8713246481942f462feb5830",
+      "bytes": 79256
+    },
+    {
+      "path": "audit.json",
+      "sha256": "8a34e34c0a2df50495fef4d394043495fc110de817c17ddc25244b75b1b1277b",
+      "bytes": 1436
+    }
+  ],
+  "teddy_accepted": false
+}

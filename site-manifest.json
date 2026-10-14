@@ -1,0 +1,74 @@
+{
+  "policy": "monitoring-public-site/v1",
+  "reports": [
+    {
+      "task_id": "four-stage",
+      "version": "v2-r1",
+      "path": "four-stage/v2-r1",
+      "public_manifest_sha256": "6158f6ee2341a430ed02fb1d4ba9ba9a66bf43c027b40bceea5a271a7daf0afc"
+    },
+    {
+      "task_id": "japan",
+      "version": "v2-r1",
+      "path": "japan/v2-r1",
+      "public_manifest_sha256": "5d3dd707be3826867754e52d4fc3c81e451646906a27c6314550db6a70842c07"
+    }
+  ],
+  "files": [
+    {
+      "path": "four-stage/v2-r1/index.html",
+      "sha256": "bda5c670359c1324a86262cf68c8c1f1e06a828b97e32422577395d0818b8d4b",
+      "bytes": 640380
+    },
+    {
+      "path": "four-stage/v2-r1/audit.json",
+      "sha256": "b6ecae6e0fdad6d08041748a8e6027a40d71658e6031e7b29c8be7070ad5c3ac",
+      "bytes": 10063
+    },
+    {
+      "path": "four-stage/v2-r1/videos/l4-s008-69e0b11a29.mp4",
+      "sha256": "1a4acac01e95f1a3c0ef155cd770fc35a144046c7aee75eb82a26af4d291d803",
+      "bytes": 437675
+    },
+    {
+      "path": "four-stage/v2-r1/videos/l4-s008-cc39202c04.mp4",
+      "sha256": "9804c8fb19083a0357243fd367e44b094da5947526c5c798f08509cbf6cfc139",
+      "bytes": 355680
+    },
+    {
+      "path": "four-stage/v2-r1/public-manifest.json",
+      "sha256": "6158f6ee2341a430ed02fb1d4ba9ba9a66bf43c027b40bceea5a271a7daf0afc",
+      "bytes": 1172
+    },
+    {
+      "path": "japan/v2-r1/index.html",
+      "sha256": "9e764f302ec2e08f40e1fa22317e6bd1cc35469e8713246481942f462feb5830",
+      "bytes": 79256
+    },
+    {
+      "path": "japan/v2-r1/audit.json",
+      "sha256": "8a34e34c0a2df50495fef4d394043495fc110de817c17ddc25244b75b1b1277b",
+      "bytes": 1436
+    },
+    {
+      "path": "japan/v2-r1/public-manifest.json",
+      "sha256": "5d3dd707be3826867754e52d4fc3c81e451646906a27c6314550db6a70842c07",
+      "bytes": 823
+    },
+    {
+      "path": "index.html",
+      "sha256": "08795df0e7bed0ffa5d21383203209b9e57b7a0c46489cdc93f3b135700724fe",
+      "bytes": 802
+    },
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "README.md",
+      "sha256": "a664b970b9439660469fb5e567187ae628b819eb54fd03fda9d358af09a1a158",
+      "bytes": 590
+    }
+  ]
+}
