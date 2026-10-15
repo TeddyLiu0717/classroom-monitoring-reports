@@ -1,0 +1,83 @@
+{
+  "policy": "monitoring-public-bundle/v1",
+  "task_id": "japan",
+  "version": "v3-r1",
+  "source_report_sha256": "88cc05d595139b62726a7bc1f62cce2881aff3b822e348446d483cf56cfd796e",
+  "source_manifest_sha256": "f8c1c3ce88529d4184c6a273a27d6312a4ca3decf345dc5eb41fc875fd09dee5",
+  "reviewed_offline_input_sha256": "fba71ebc72b1b51f48f99261a2e914c06e0bf7eb0a78a9100c22fdb2833b39d6",
+  "source_offline_html_sha256": "04c3cc934fde5a819cf3eeaa0bae4f66dd9adfa2ba3c0f43cc9797e36953d1c2",
+  "producer_sha256": "a3bfa7b39f8b73069529287e2193ba8f7560cb4868a241bb994aafbac6aa0283",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "f000a3e3d2e0e1e815f10a2fb38ce60c31838d8b94570c88d2fc9694f10ab128",
+      "bytes": 94823
+    },
+    {
+      "path": "audit.json",
+      "sha256": "4539f8b8ecce06e3877ca1fc9080fc4beb835776466e8a942ea945c2f58aa42d",
+      "bytes": 6399
+    },
+    {
+      "path": "videos/issue-jp003-start.mp4",
+      "sha256": "37afd11cd03bd79ad259be1a715e8b7dd0cd3d92c4f144a2f743d962dc316467",
+      "bytes": 225094
+    },
+    {
+      "path": "videos/exit-jp017-a1.mp4",
+      "sha256": "b86215bd19632a1a98e55b3ea138602b5d4766bc6fee4cc0688bafecd2a4cc80",
+      "bytes": 882773
+    },
+    {
+      "path": "videos/issue-jp008-start.mp4",
+      "sha256": "c33d34ab8c29e0b5ad19fa4e8fe2f2a1071c401942de0f70e46bda20edc61b8d",
+      "bytes": 113785
+    },
+    {
+      "path": "videos/issue-jp005-story.mp4",
+      "sha256": "e1d45941bc954cf50becdfbe94f26dab29aee27f9e1298f17354735476c5250d",
+      "bytes": 1822636
+    },
+    {
+      "path": "videos/exit-jp009-a3.mp4",
+      "sha256": "1f9e253f39712e6f511da97f3ea04e3c8e199951a3cf33f75cd885b9f5c53ae7",
+      "bytes": 624775
+    },
+    {
+      "path": "videos/control-jp015-help.mp4",
+      "sha256": "19b2dd7a3b1d63a8b23726d96a7c4bf84db4be8d5b5f333ee64b987fa6302f02",
+      "bytes": 1220952
+    },
+    {
+      "path": "videos/issue-jp009-word.mp4",
+      "sha256": "382d6d89eabef10388b82bde8f46861f939f1cf0f9f19788be7aca5296e84afe",
+      "bytes": 1800076
+    },
+    {
+      "path": "videos/issue-jp004-retry.mp4",
+      "sha256": "053b1de480d9772a15a3b998d57c9669bb12a8ae88a31059f26c305afd490f4c",
+      "bytes": 1002507
+    },
+    {
+      "path": "videos/issue-jp007-retry.mp4",
+      "sha256": "bc6b0288136b3956026a89d174831cef6d8eafe0f6c6649b62d91d57fa111d7f",
+      "bytes": 1069981
+    },
+    {
+      "path": "videos/issue-jp006-retry.mp4",
+      "sha256": "aa7ac4275a5058035b2ae21ea23646d38e90887240879c3a6562638d9ba09973",
+      "bytes": 1183189
+    },
+    {
+      "path": "videos/issue-jp006-input.mp4",
+      "sha256": "eadb815953709757658348799c01bd4868c1db91aad5c4c8a8f8eece974eb7f5",
+      "bytes": 977884
+    },
+    {
+      "path": "videos/issue-jp010-tutorial.mp4",
+      "sha256": "7d7acf0715edfbec0a54e76db2f763dab12d3072ed2f75a44a8f7ceb994420c2",
+      "bytes": 469502
+    }
+  ],
+  "teddy_accepted": false
+}

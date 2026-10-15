@@ -3,6 +3,18 @@
   "reports": [
     {
       "task_id": "four-stage",
+      "version": "v3-r1",
+      "path": "four-stage/v3-r1",
+      "public_manifest_sha256": "edad3e25d02b26c609e9d6d35e4e7fa6d2eb8c920fd1c961571588ab2d44206b"
+    },
+    {
+      "task_id": "japan",
+      "version": "v3-r1",
+      "path": "japan/v3-r1",
+      "public_manifest_sha256": "58bcabcd31bd3325b57413055b1c5143ff4e895826ed624b34a6078469a8edb1"
+    },
+    {
+      "task_id": "four-stage",
       "version": "v2-r1",
       "path": "four-stage/v2-r1",
       "public_manifest_sha256": "6158f6ee2341a430ed02fb1d4ba9ba9a66bf43c027b40bceea5a271a7daf0afc"
@@ -15,6 +27,216 @@
     }
   ],
   "files": [
+    {
+      "path": "four-stage/v3-r1/index.html",
+      "sha256": "6bf8c6bde13d31f66fc3f0b4466401de3f5fc8cd7afcbcb8520fadb5f9589a77",
+      "bytes": 1233986
+    },
+    {
+      "path": "four-stage/v3-r1/audit.json",
+      "sha256": "ebfafbef8fb7f2d4c9a5e5e956bc3430830dc7c6333e7e508ed69c8d4e8a2c2e",
+      "bytes": 18654
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l1-s009-e5d4b97295.mp4",
+      "sha256": "f2297b6e3f9452018d527d63d13d41333d0f8d70a90ae0bc14528bba4e380fba",
+      "bytes": 624441
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l1-s009-1d5e694fea.mp4",
+      "sha256": "4f5354ec1ef6bdc9743b6a92bac77b41c7e2bd8d335eaa71a0b2d8ca1803cf41",
+      "bytes": 230869
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l1-s014-acac293597.mp4",
+      "sha256": "7960cd310b15d9bf8a82f7b1aa998563d1d62f647907639754f631d94df02388",
+      "bytes": 2607463
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l1-s014-fedf49593b.mp4",
+      "sha256": "556fd9e67dab7696af5f96e4d6e4611d19ac9fb8987ed7d6e107a4941caa6426",
+      "bytes": 724621
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l2-s001-8147a067da.mp4",
+      "sha256": "66bea5313d4711e8fc8aa5ad1d6914d68f489502645ec1cf5a660c27492957f4",
+      "bytes": 613496
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l2-s001-259c5d5f95.mp4",
+      "sha256": "ef833140843219ba19a988452b2607310c65dfbcedc392f0b1d89c29852894af",
+      "bytes": 1356211
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l2-s001-63f5151e15.mp4",
+      "sha256": "0155e8e706fc374e67757314c2ea04cc59e30aa4001b7ac548c5b795a6c51842",
+      "bytes": 1502603
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l2-s007-83299269b0.mp4",
+      "sha256": "196781fde6ab9b499d12bbbbb258883c81d38d09c9440c128815dd84f2b03406",
+      "bytes": 702597
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l2-s007-145aee7fa5.mp4",
+      "sha256": "aeecf4d52c2186ca4cd88766ab2bc612f40f28695b216ab3769cb7a4df140b38",
+      "bytes": 391336
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l2-s024-7950777e0a.mp4",
+      "sha256": "f610b9d7ebf1b6250cedf7594fd32f7f23a0bf1a28ec4f2afd8cf9e1dc08f08c",
+      "bytes": 647021
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l2-s024-2376ef3513.mp4",
+      "sha256": "bcbb9a931b241fafe8ce5ffbb259413826a4af58854fa1fd6a6c4339c1213acc",
+      "bytes": 892482
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s001-f6cd7494ca.mp4",
+      "sha256": "5201efab24cd71baa7b497375073e5d68b0a5225f45ace0d25155717af20c820",
+      "bytes": 325316
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s001-e6d36004d0.mp4",
+      "sha256": "2c10fb3f963574ad2b3934da18664929475e0d0ecabaaba7282f23d7834cd4e7",
+      "bytes": 334188
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s001-1ff5e2405f.mp4",
+      "sha256": "c3422838d84a144d80d48e85dcb62841b4f8ec1776992f37f721b2556627b2fb",
+      "bytes": 380619
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s007-28fd69c953.mp4",
+      "sha256": "1a23c4f0933d804ed6979e701eabd619cfee91cce3fb540f7149a82842f19ed9",
+      "bytes": 558390
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s007-42c0a6f629.mp4",
+      "sha256": "d7269b03f30a5d8016ac539cd3442d09fed0871c016b76539efed2d8a2814351",
+      "bytes": 427765
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s007-af76a3594f.mp4",
+      "sha256": "f8a49a4d446152c583dd83ccc6a8d9d8470f650cda77b9385c3e441b44e9d88c",
+      "bytes": 416480
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s009-ebc8941fbf.mp4",
+      "sha256": "259c6b2b4175c6118d373cff18e052ff807dd5e9fe5796e056af62dd34832537",
+      "bytes": 476521
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s009-c8548248fc.mp4",
+      "sha256": "6a1714cac4ae3437aab5657bddfe952b4022813753f44b44940ec7a6feee0672",
+      "bytes": 532966
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l3-s009-4a2811cf35.mp4",
+      "sha256": "f41a088b29bf0d6319ddc27cb8e37515d4931599e40f65dc8b6901441fa57b3c",
+      "bytes": 258832
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l4-s001-2d3ee05f03.mp4",
+      "sha256": "1b71c48288169162e95f1d90d359bd2246c1540821711c025abf8fe1bc430f33",
+      "bytes": 910798
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l4-s001-8becaa5a4b.mp4",
+      "sha256": "6b4c66924cbe2bfff55db7e77f47b402b2dc7f881e32c97286343acd8391380a",
+      "bytes": 499546
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l4-s008-69e0b11a29.mp4",
+      "sha256": "84cd33aeacfde3b179b175b84c245efbb6151c6acde59332869f655f6f14392b",
+      "bytes": 340938
+    },
+    {
+      "path": "four-stage/v3-r1/videos/l4-s008-cc39202c04.mp4",
+      "sha256": "55e6a028e667eecd78110171296f2775bd170a5db7968740a493e0444767ba10",
+      "bytes": 275202
+    },
+    {
+      "path": "four-stage/v3-r1/public-manifest.json",
+      "sha256": "edad3e25d02b26c609e9d6d35e4e7fa6d2eb8c920fd1c961571588ab2d44206b",
+      "bytes": 5045
+    },
+    {
+      "path": "japan/v3-r1/index.html",
+      "sha256": "f000a3e3d2e0e1e815f10a2fb38ce60c31838d8b94570c88d2fc9694f10ab128",
+      "bytes": 94823
+    },
+    {
+      "path": "japan/v3-r1/audit.json",
+      "sha256": "4539f8b8ecce06e3877ca1fc9080fc4beb835776466e8a942ea945c2f58aa42d",
+      "bytes": 6399
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp003-start.mp4",
+      "sha256": "37afd11cd03bd79ad259be1a715e8b7dd0cd3d92c4f144a2f743d962dc316467",
+      "bytes": 225094
+    },
+    {
+      "path": "japan/v3-r1/videos/exit-jp017-a1.mp4",
+      "sha256": "b86215bd19632a1a98e55b3ea138602b5d4766bc6fee4cc0688bafecd2a4cc80",
+      "bytes": 882773
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp008-start.mp4",
+      "sha256": "c33d34ab8c29e0b5ad19fa4e8fe2f2a1071c401942de0f70e46bda20edc61b8d",
+      "bytes": 113785
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp005-story.mp4",
+      "sha256": "e1d45941bc954cf50becdfbe94f26dab29aee27f9e1298f17354735476c5250d",
+      "bytes": 1822636
+    },
+    {
+      "path": "japan/v3-r1/videos/exit-jp009-a3.mp4",
+      "sha256": "1f9e253f39712e6f511da97f3ea04e3c8e199951a3cf33f75cd885b9f5c53ae7",
+      "bytes": 624775
+    },
+    {
+      "path": "japan/v3-r1/videos/control-jp015-help.mp4",
+      "sha256": "19b2dd7a3b1d63a8b23726d96a7c4bf84db4be8d5b5f333ee64b987fa6302f02",
+      "bytes": 1220952
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp009-word.mp4",
+      "sha256": "382d6d89eabef10388b82bde8f46861f939f1cf0f9f19788be7aca5296e84afe",
+      "bytes": 1800076
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp004-retry.mp4",
+      "sha256": "053b1de480d9772a15a3b998d57c9669bb12a8ae88a31059f26c305afd490f4c",
+      "bytes": 1002507
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp007-retry.mp4",
+      "sha256": "bc6b0288136b3956026a89d174831cef6d8eafe0f6c6649b62d91d57fa111d7f",
+      "bytes": 1069981
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp006-retry.mp4",
+      "sha256": "aa7ac4275a5058035b2ae21ea23646d38e90887240879c3a6562638d9ba09973",
+      "bytes": 1183189
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp006-input.mp4",
+      "sha256": "eadb815953709757658348799c01bd4868c1db91aad5c4c8a8f8eece974eb7f5",
+      "bytes": 977884
+    },
+    {
+      "path": "japan/v3-r1/videos/issue-jp010-tutorial.mp4",
+      "sha256": "7d7acf0715edfbec0a54e76db2f763dab12d3072ed2f75a44a8f7ceb994420c2",
+      "bytes": 469502
+    },
+    {
+      "path": "japan/v3-r1/public-manifest.json",
+      "sha256": "58bcabcd31bd3325b57413055b1c5143ff4e895826ed624b34a6078469a8edb1",
+      "bytes": 2971
+    },
     {
       "path": "four-stage/v2-r1/index.html",
       "sha256": "bda5c670359c1324a86262cf68c8c1f1e06a828b97e32422577395d0818b8d4b",
@@ -57,8 +279,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "08795df0e7bed0ffa5d21383203209b9e57b7a0c46489cdc93f3b135700724fe",
-      "bytes": 802
+      "sha256": "8ad68bd74ef3b133d5cfa8742336a7f9ee6364a875190360e3231dc10cd3bf4c",
+      "bytes": 966
     },
     {
       "path": ".nojekyll",

@@ -1,0 +1,213 @@
+{
+  "format_version": "classroom-monitoring/v3",
+  "task_id": "japan",
+  "version": "v3-r1",
+  "monitoring_registry_version": "3.0",
+  "monitoring_gaps": {
+    "missing_required_modules": [],
+    "unregistered_modules": []
+  },
+  "scope": {
+    "window": "2026-10-10T00:00:00+08:00 / 2026-10-11T00:00:00+08:00；非固定成熟期/历史首体验",
+    "population_users": 15,
+    "review_users": 15,
+    "exit_scope": "all_new_class_users_in_day",
+    "explicit_filters": {
+      "country": "JP"
+    },
+    "note": "来源声明的历史续作另列；同人映射仅在来源关系明确时合并，未证明的不合并。"
+  },
+  "coverage": {
+    "review_users": 15,
+    "explicit_exit_users": 3,
+    "explicit_exit_attempts": 4,
+    "missing_terminal_users": 5,
+    "missing_terminal_aliases": [
+      "JP-002",
+      "JP-003",
+      "JP-005",
+      "JP-009",
+      "JP-010"
+    ],
+    "unobserved_users": 4,
+    "unobserved_aliases": [
+      "JP-011",
+      "JP-012",
+      "JP-013",
+      "JP-014"
+    ],
+    "activity_without_boundaries_users": 1,
+    "unresolved_terminal_users": 10,
+    "confirmed_issues": 0,
+    "confirmed_issue_users": 0,
+    "playback_videos": 12,
+    "exit_set_matches": true,
+    "visible_findings": 8,
+    "concern_users": 9,
+    "priority_exit_users": 2,
+    "missing_monitoring_modules": 0
+  },
+  "videos": [
+    {
+      "path": "videos/issue-jp003-start.mp4",
+      "sha256": "37afd11cd03bd79ad259be1a715e8b7dd0cd3d92c4f144a2f743d962dc316467",
+      "bytes": 225094,
+      "id": "issue-jp003-start",
+      "purpose": "issue",
+      "source_interval": [
+        0.002,
+        20.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/exit-jp017-a1.mp4",
+      "sha256": "b86215bd19632a1a98e55b3ea138602b5d4766bc6fee4cc0688bafecd2a4cc80",
+      "bytes": 882773,
+      "id": "exit-jp017-a1",
+      "purpose": "issue",
+      "source_interval": [
+        0.002,
+        100.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp008-start.mp4",
+      "sha256": "c33d34ab8c29e0b5ad19fa4e8fe2f2a1071c401942de0f70e46bda20edc61b8d",
+      "bytes": 113785,
+      "id": "issue-jp008-start",
+      "purpose": "issue",
+      "source_interval": [
+        0.002,
+        25.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp005-story.mp4",
+      "sha256": "e1d45941bc954cf50becdfbe94f26dab29aee27f9e1298f17354735476c5250d",
+      "bytes": 1822636,
+      "id": "issue-jp005-story",
+      "purpose": "issue",
+      "source_interval": [
+        136.002,
+        246.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/exit-jp009-a3.mp4",
+      "sha256": "1f9e253f39712e6f511da97f3ea04e3c8e199951a3cf33f75cd885b9f5c53ae7",
+      "bytes": 624775,
+      "id": "exit-jp009-a3",
+      "purpose": "issue",
+      "source_interval": [
+        16.002,
+        50.068667000000005
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/control-jp015-help.mp4",
+      "sha256": "19b2dd7a3b1d63a8b23726d96a7c4bf84db4be8d5b5f333ee64b987fa6302f02",
+      "bytes": 1220952,
+      "id": "control-jp015-help",
+      "purpose": "control",
+      "source_interval": [
+        68.002,
+        135.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp009-word.mp4",
+      "sha256": "382d6d89eabef10388b82bde8f46861f939f1cf0f9f19788be7aca5296e84afe",
+      "bytes": 1800076,
+      "id": "issue-jp009-word",
+      "purpose": "issue",
+      "source_interval": [
+        107.535333,
+        248.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp004-retry.mp4",
+      "sha256": "053b1de480d9772a15a3b998d57c9669bb12a8ae88a31059f26c305afd490f4c",
+      "bytes": 1002507,
+      "id": "issue-jp004-retry",
+      "purpose": "issue",
+      "source_interval": [
+        275.868667,
+        306.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp007-retry.mp4",
+      "sha256": "bc6b0288136b3956026a89d174831cef6d8eafe0f6c6649b62d91d57fa111d7f",
+      "bytes": 1069981,
+      "id": "issue-jp007-retry",
+      "purpose": "issue",
+      "source_interval": [
+        146.735333,
+        180.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp006-retry.mp4",
+      "sha256": "aa7ac4275a5058035b2ae21ea23646d38e90887240879c3a6562638d9ba09973",
+      "bytes": 1183189,
+      "id": "issue-jp006-retry",
+      "purpose": "control",
+      "source_interval": [
+        362.335333,
+        405.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp006-input.mp4",
+      "sha256": "eadb815953709757658348799c01bd4868c1db91aad5c4c8a8f8eece974eb7f5",
+      "bytes": 977884,
+      "id": "issue-jp006-input",
+      "purpose": "issue",
+      "source_interval": [
+        206.335333,
+        270.002
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    },
+    {
+      "path": "videos/issue-jp010-tutorial.mp4",
+      "sha256": "7d7acf0715edfbec0a54e76db2f763dab12d3072ed2f75a44a8f7ceb994420c2",
+      "bytes": 469502,
+      "id": "issue-jp010-tutorial",
+      "purpose": "issue",
+      "source_interval": [
+        76.002,
+        90.202
+      ],
+      "redaction": "reviewed participant/name regions masked; audio removed",
+      "full_decode_exit_code": 0
+    }
+  ],
+  "teddy_accepted": false,
+  "browser_playback_verified": false,
+  "public_share_verified": false,
+  "public": true,
+  "public_approval": "scoped_direct_user_authorization"
+}
